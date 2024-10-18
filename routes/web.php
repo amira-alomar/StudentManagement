@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudentController;
+use App\Http\Controllers\CourseController;
+use App\Http\Controllers\StudentsCoursesController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +15,16 @@ use App\Http\Controllers\StudentController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/',function(){
-    return redirect()->route('students.index');
-});
+
+
+
+// Route for the main dashboard page
+Route::get('/', function () {
+    return view('main.index');
+})->name('dashboard');
+
+// Resource routes for students, courses, and enrollments
 Route::resource('students', StudentController::class);
+Route::resource('courses', CourseController::class);
+Route::resource('enrollement', StudentsCoursesController::class);
+
