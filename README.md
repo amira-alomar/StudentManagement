@@ -58,22 +58,22 @@ The Student Management System is a web application built using the Laravel frame
 
 1. Clone the repository:
    git clone https://github.com/amira-alomar/StudentManagement
-   cd student-management-system
 
-2. Install the dependencies:
+
+3. Install the dependencies:
    composer install
 
-3. Set up your .env file:
+4. Set up your .env file:
    - Copy the .env.example file to .env.
    - Configure your database settings in the .env file.
 
-4. Run the migrations:
+5. Run the migrations:
    php artisan migrate
 
-5. Start the development server:
+6. Start the development server:
    php artisan serve
 
-6. Access the application at http://localhost:8000.
+7. Access the application at http://localhost:8000.
 
 ## Usage
 
