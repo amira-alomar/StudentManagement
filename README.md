@@ -51,13 +51,13 @@ The Student Management System is a web application built using the Laravel frame
 - PHP (version 7.3 or higher)
 - Composer
 - Laravel (version 8.x or higher)
-- A web server (Apache/Nginx)
-- A database server (MySQL/MariaDB)
+- A web server (Apache)
+- A database server (MySQL)
 
 ### Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/student-management-system.git
+   git clone https://github.com/amira-alomar/StudentManagement
    cd student-management-system
 
 2. Install the dependencies:
